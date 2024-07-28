@@ -1,0 +1,58 @@
+.forms {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.formcheckboxs{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.forms input[type="text"], .forms input[type="tel"], .forms textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forms button {
+  padding: 12px 50px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forms button:hover {
+  background-color: #2980b9;
+}
+
+.submittedMessage {
+  text-align: center;
+  padding: 20px;
+  background-color: #4caf50; /* Задний фон зеленого цвета */
+  color: white; /* Цвет текста */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.submittedMessage p {
+  font-size: 18px;
+  margin: 0;
+}
+

@@ -1,0 +1,36 @@
+@import url("../assets/styles/Normalize.css");
+
+@font-face {
+  font-family: "Font1";
+  src: url("../assets/fonts/_AsylbekM02Shelley.kz_.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font2";
+  src: url("../assets/fonts/_KZCarolina-Regular_.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font3";
+  src: url("../assets/fonts/_KZKlementina\ Regular_.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Font4";
+  src: url("../assets/fonts/KZ_Jikharev_.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font5";
+  src: url("../assets/fonts/Kz_Marli_kz.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font6";
+  src: url("../assets/fonts/KZ_Vivaldi_kz.ttf") format("truetype");
+}
+
+body {
+  font-family: "Font5", sans-serif;
+  background-color: #d1deee;
+}

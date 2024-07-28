@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  max-width: 340px;
+  background-color: #d1deee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #2c3e50;
+}
