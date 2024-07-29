@@ -1,0 +1,78 @@
+.textContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line {
+  border-top: 1px solid #819297;
+  width: 100%;
+}
+
+.text h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.musicButton {
+  padding: 25px 0;
+  border: none;
+  background-color: transparent;
+}
+
+.musicButton img {
+  width: 70px;
+}
+
+.textTwo h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.ornament img {
+  transform: rotate(90deg);
+  width: 47px;
+  height: 188px;
+}
+
+.title, .titlenum {
+  text-align: center;
+}
+.title h1 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.title p {
+  font-family: "Font7";
+  font-weight: 600;
+  color: #676767;
+}
+
+.titlenum h1 {
+  font-size: 35px;
+  font-family: "Font5";
+}
+
+.titlenum img{
+  width: 100%;
+}
+
+.times{
+  text-align: left;
+  padding-top: 25px;
+}
+.times p{
+  margin: 0;
+  font-size: 25px;
+  color: #000;
+}
+
+.ornamenttwo img{
+  padding-top: 55px;
+  width: 55px;
+}

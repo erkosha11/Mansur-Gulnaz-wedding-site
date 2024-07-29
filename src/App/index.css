@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: "Font1";
-  src: url("../assets/fonts/_AsylbekM02Shelley.kz_.ttf") format("truetype");
+  src: url("../assets/fonts/vAcade.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Font2";
-  src: url("../assets/fonts/_KZCarolina-Regular_.ttf") format("truetype");
+  src: url("../assets/fonts/vAcadeb.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Font3";
-  src: url("../assets/fonts/_KZKlementina\ Regular_.otf") format("opentype");
+  src: url("../assets/fonts/vAcadebi.ttf") format("opentype");
 }
 
 @font-face {
   font-family: "Font4";
-  src: url("../assets/fonts/KZ_Jikharev_.ttf") format("truetype");
+  src: url("../assets/fonts/vAcadei.ttf") format("truetype");
 }
 
 @font-face {
@@ -30,7 +30,21 @@
   src: url("../assets/fonts/KZ_Vivaldi_kz.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Font7";
+  src: url("../assets/fonts/vCourn.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font8";
+  src: url("../assets/fonts/ofont.ru_Romul.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Font9";
+  src: url("../assets/fonts/vsChroma.ttf") format("truetype");
+}
+
 body {
-  font-family: "Font5", sans-serif;
-  background-color: #d1deee;
+  font-family: "Font1", sans-serif;
 }

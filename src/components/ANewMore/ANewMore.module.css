@@ -1,0 +1,101 @@
+.timer{
+  margin-top: 35px;
+  padding-top: 15px;
+  background-color: #819297;
+}
+
+.textContent{
+  text-align: center;
+}
+
+.textData h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 0;
+}
+.textDataTwo h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.timeUnit {
+  border: none;
+  padding: 20px 20px;
+
+  text-align: center;
+  color: #fff;
+}
+.timeUnit div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.timeUnit span:first-child {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.timeUnit span:last-child {
+  display: block;
+  font-size: 1em;
+}
+
+.flowerImg {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Ширина контейнера */
+  height: auto; /* Высота контейнера */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flowersbottom {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+}
+
+.title h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.titleTwo h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.border{
+  width: 1px;
+  height: 45px;
+  border-right: 1px solid #fff;
+}
+
+

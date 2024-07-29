@@ -1,0 +1,33 @@
+.anewTextTwo {
+  background-color: #a6b4b8;
+}
+.textContent {
+  color: #fff;
+  text-align: center;
+}
+
+.textData h1 {
+  font-size: 23px;
+}
+
+.title h2{
+  font-size: 20px;
+  margin: 10px;
+  font-family: "Font7";
+}
+
+.title h3{
+  padding-top: 20px;
+  font-size: 13px;
+  margin: 10px;
+  font-family: "Font7";
+}
+
+.moreButton button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #2c3e50;
+  border: none;
+  border-radius: 18px;
+  color: #fff;
+  padding: 15px 50px;
+}
