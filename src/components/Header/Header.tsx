@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 import s from "./Header.module.css";
-import flowers from "../../assets/img/flowers.png";
 import play from "../../assets/img/play.svg";
 import pause from "../../assets/img/pause.svg";
+import ormanents from "../../assets/img/ornaments.png";
 import song from "../../assets/audio/music.mp3";
 
 export const Header = () => {
@@ -37,8 +37,8 @@ export const Header = () => {
             <img src={isPlaying ? pause : play} alt="Play/Pause" />
           </button>
         </div>
-        <img src={flowers} alt="Flowers" className={s.flowerstop} />
-        <img src={flowers} alt="Flowers" className={s.flowersbottom} />
+        <img src={ormanents} alt="Flowers" className={s.flowerstop} />
+        <img src={ormanents} alt="Flowers" className={s.flowersbottom} />
       </div>
     </div>
   );

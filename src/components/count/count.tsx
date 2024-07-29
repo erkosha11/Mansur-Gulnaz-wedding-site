@@ -55,7 +55,7 @@ export const Count = () => {
     <div className="container">
       <div className={s.countContent}>
         <div className={s.textData}>
-          <h2>Той дейін қалды:</h2>
+          <h2>Тойға дейін қалды:</h2>
         </div>
         <div className={s.otchet}>
           <Countdown date={weddingDate} renderer={renderer} />
@@ -64,7 +64,7 @@ export const Count = () => {
           <img src={flowers} alt="Flowers" className={s.flowersbottom} />
         </div>
         <div className={s.textDataTwo}>
-          <h2>Той дейін қалды:</h2>
+          <h2>Қуанышымызғы ортақ болыңыздар!</h2>
         </div>
         <div className={s.title}>
           <h2>

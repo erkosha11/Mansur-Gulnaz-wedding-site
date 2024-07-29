@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.formcheckboxs{
+.formcheckboxs {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -25,7 +25,6 @@
 .forms input[type="text"], .forms input[type="tel"], .forms textarea {
   width: 80%;
   padding: 10px;
-  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -55,4 +54,3 @@
   font-size: 18px;
   margin: 0;
 }
-

@@ -47,11 +47,11 @@
 
 .flowerstop {
   position: absolute;
-  top: -40px;
-  right: -60px;
+  top: -15px;
+  right: -20px;
   width: auto;
   height: auto;
-  transform: rotate(0.7turn);
+  transform: rotate(0.25turn);
   max-width: 70%;
   max-height: 70%;
   z-index: 0;
@@ -60,10 +60,10 @@
 .flowersbottom {
   position: absolute;
   bottom: 3%;
-  left: -20%;
+  left: 3%;
   width: auto;
   height: auto;
-  transform: rotate(0.04turn);
+  transform: rotate(0.75turn);
   max-width: 70%;
   max-height: 70%;
   z-index: 0;

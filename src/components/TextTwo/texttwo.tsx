@@ -16,7 +16,7 @@ export const TextTwo = () => {
           <img src={calend} alt="" />
         </div>
         <div className={s.title}>
-          <h2>Басталуы 20:00 </h2>
+          <h2>Басталуы 18:00 </h2>
         </div>
         <img src={flowers} alt="Flowers" className={s.flowerstop} />
       </div>
