@@ -53,12 +53,12 @@ export const ANewMore = () => {
     <div className={s.timer}>
       <div className="container">
         <div className={s.textContent}>
-        <div className={s.textData}>
-          <h2>Тойға дейін қалды:</h2>
-        </div>
-        <div className={s.otchet}>
-          <Countdown date={weddingDate} renderer={renderer} />
-        </div>
+          <div className={s.textData}>
+            <h2>Тойға дейін қалды:</h2>
+          </div>
+          <div className={s.otchet}>
+            <Countdown date={weddingDate} renderer={renderer} />
+          </div>
         </div>
       </div>
     </div>

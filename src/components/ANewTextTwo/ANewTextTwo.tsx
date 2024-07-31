@@ -12,7 +12,7 @@ export const ANewTextTwo = () => {
             <h2>15 қыркүйек 2024 жыл</h2>
           </div>
           <div className={s.title}>
-            <h2>Басталуы 18:00 </h2>
+            <h2>Сағат 18:00 </h2>
           </div>
           <div className={s.title}>
             <h2>

@@ -13,7 +13,7 @@
 }
 
 .text h1 {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
   padding-bottom: 25px;
 }
@@ -34,32 +34,59 @@
 }
 
 .ornament img {
-  transform: rotate(90deg);
-  width: 47px;
-  height: 188px;
+  width: 290px;
+  padding: 50px 0;
 }
 
-.title, .titlenum {
+.title, .titlenum, .titlenew {
   text-align: center;
 }
+.title{
+  padding-bottom: 50px;
+}
 .title h1 {
-  font-size: 23px;
-  font-weight: 700;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight:700;
 }
 
-.title p {
-  font-family: "Font7";
-  font-weight: 600;
-  color: #676767;
+.titlenew h1{
+  line-height: 28px;
+  font-size: 20px;
+  font-weight:500;
+  padding-bottom: 25px;
 }
+
+.titlenew span{
+  font-family: "Font4";
+  font-weight: 800;
+  font-size: 35px;
+}
+
 
 .titlenum h1 {
   font-size: 35px;
-  font-family: "Font5";
+  font-weight: 500;
 }
 
-.titlenum img{
-  width: 100%;
+.titlenum h2{
+  font-family: "Font4";
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.titlenum p{
+  font-size: 25px;
+}
+
+.titleTimes{
+  padding-top: 25px;
+  text-align: center;
+}
+
+.titleTimes h1{
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .times{

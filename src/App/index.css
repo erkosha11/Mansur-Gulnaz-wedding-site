@@ -45,6 +45,29 @@
   src: url("../assets/fonts/vsChroma.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Font10";
+  src: url("../assets/fonts/VJIKHARE.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Font11";
+  src: url("../assets/fonts/academy/VACADE.TTF") format("truetype");
+}
+@font-face {
+  font-family: "Font12";
+  src: url("../assets/fonts/academy/VACADEB.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Font13";
+  src: url("../assets/fonts/academy/VACADEBI.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Font14";
+  src: url("../assets/fonts/academy/VACADEI.TTF") format("truetype");
+}
 body {
-  font-family: "Font1", sans-serif;
+  font-family: "Font11", sans-serif;
 }

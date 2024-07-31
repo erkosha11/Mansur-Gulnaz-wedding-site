@@ -2,7 +2,6 @@ import { ANewForm } from "../components/ANewForm/ANewForm";
 import { ANewHeader } from "../components/ANewHeader/ANewHeader";
 import { ANewMore } from "../components/ANewMore/ANewMore";
 import { ANewText } from "../components/ANewText/ANewText";
-import { ANewTextTwo } from "../components/ANewTextTwo/ANewTextTwo";
 // import { Count } from "../components/count/count";
 // import { Header } from "../components/Header/Header";
 // import { More } from "../components/More/More";
@@ -15,7 +14,6 @@ function App() {
     <>
     <ANewHeader/>
     <ANewText/>
-    <ANewTextTwo/>
     <ANewForm/>
     <ANewMore/>
     {/* <Header/>
