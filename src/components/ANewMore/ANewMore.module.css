@@ -88,24 +88,17 @@
   z-index: 0;
 }
 
-.title h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 23px;
-  font-weight: 500;
-  line-height: 35px;
-}
 
-.titleTwo h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 35px;
-}
 
 .border {
   width: 1px;
   height: 45px;
   border-right: 1px solid #fff;
+}
+
+.finish{
+  position: relative;
+  z-index: 1;
+  font-size: 35px;
+  color: #ffffff;
 }

@@ -1,7 +1,7 @@
 import s from "./ANewMore.module.css";
 import Countdown, { CountdownRenderProps } from "react-countdown";
 
-const Completionist = () => <span>Той басталды!</span>;
+const Completionist = () => <span className={s.finish}>Той басталды!</span>;
 
 const renderer = ({
   days,
