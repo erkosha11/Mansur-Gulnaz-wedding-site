@@ -38,68 +38,72 @@
   padding: 50px 0;
 }
 
-.title, .titlenum, .titlenew {
+.title,
+.titlenum,
+.titlenew {
   text-align: center;
 }
-.title{
+
+.title {
   padding-bottom: 50px;
 }
 .title h1 {
   line-height: 28px;
   font-size: 18px;
-  font-weight:700;
+  font-weight: 700;
 }
 
-.titlenew h1{
+.titlenew h1 {
   line-height: 28px;
   font-size: 20px;
-  font-weight:500;
-  padding-bottom: 25px;
+  font-weight: 500;
+}
+.titlenew h4 {
+  margin: 0;
 }
 
-.titlenew span{
-  font-family: "Font4";
+.titlenew span {
+  font-family: "Font15";
   font-weight: 800;
-  font-size: 35px;
+  font-size: 40px;
 }
-
 
 .titlenum h1 {
   font-size: 35px;
   font-weight: 500;
 }
 
-.titlenum h2{
-  font-family: "Font4";
+.titlenum h2 {
+  font-family: "Font15";
   font-weight: 800;
-  font-size: 35px;
+  font-size: 40px;
 }
 
-.titlenum p{
+.titlenum p {
   font-size: 25px;
 }
 
-.titleTimes{
+.titleTimes {
   padding-top: 25px;
   text-align: center;
 }
 
-.titleTimes h1{
+.titleTimes h1 {
   font-size: 30px;
   font-weight: 500;
 }
 
-.times{
+.times {
   text-align: left;
   padding-top: 25px;
 }
-.times p{
+.times p {
   margin: 0;
   font-size: 25px;
   color: #000;
 }
 
-.ornamenttwo img{
+.ornamenttwo img {
   padding-top: 55px;
   width: 55px;
 }

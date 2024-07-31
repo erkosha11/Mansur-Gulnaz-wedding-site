@@ -68,6 +68,12 @@
   font-family: "Font14";
   src: url("../assets/fonts/academy/VACADEI.TTF") format("truetype");
 }
+
+@font-face {
+  font-family: "Font15";
+  src: url("../assets/fonts/vsArtscr.ttf") format("truetype");
+}
+
 body {
   font-family: "Font11", sans-serif;
 }
