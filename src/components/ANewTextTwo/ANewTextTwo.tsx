@@ -6,7 +6,7 @@ export const ANewTextTwo = () => {
       <div className="container">
         <div className={s.textContent}>
           <div className={s.textData}>
-            <h1>МЕКЕН - ЖАЙМЫЗ</h1>
+            <h1>МЕКЕН - ЖАЙЫМЫЗ</h1>
           </div>
           <div className={s.title}>
             <h2>15 қыркүйек 2024 жыл</h2>

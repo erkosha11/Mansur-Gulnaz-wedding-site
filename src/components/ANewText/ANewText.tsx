@@ -33,7 +33,7 @@ export const ANewText = () => {
           <div className={s.textTwo}>
             <h2>
               МУЗЫКАНЫ, ҚОСУ ҮШІН <br />
-              БАТАРЫМАНЫ БАСЫҢЫЗ
+              БАТЫРМАНЫ БАСЫҢЫЗ
             </h2>
           </div>
           <div className={s.ornament}>
