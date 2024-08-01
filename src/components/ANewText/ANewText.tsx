@@ -53,7 +53,7 @@ export const ANewText = () => {
           </div>
           <div className={s.titlenew}>
             <h1>
-              CІЗДЕРДІ ҰЛЫМЫЗ,
+              CІЗДЕРДІ ҰЛЫМЫЗп
               <br />
             </h1>
             <h4>
