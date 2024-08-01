@@ -32,14 +32,14 @@ const renderer = ({
         <div className={s.timeUnit}>
           <div>
             <span>{minutes}</span>
-            <span>Минуттар</span>
+            <span>Минут</span>
           </div>
         </div>
         <span className={s.border}></span>
         <div className={s.timeUnit}>
           <div>
             <span>{seconds}</span>
-            <span>Секундтар</span>
+            <span>Секунд</span>
           </div>
         </div>
       </div>
