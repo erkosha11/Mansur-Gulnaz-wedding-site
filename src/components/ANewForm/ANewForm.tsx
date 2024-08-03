@@ -5,6 +5,7 @@ export const ANewForm = () => {
   const [attendance, setAttendance] = useState("");
   const [name, setName] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
   const handleAttendanceChange = (e: ChangeEvent<HTMLInputElement>) => {
     setAttendance(e.target.value);
@@ -12,6 +13,10 @@ export const ANewForm = () => {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
+    if (!name || !attendance) {
+      setError("Өтінеміз, барлық өрістерді толтырыңыз.");
+      return;
+    }
     const botToken = "7009623358:AAGiZG33iA6lD93QD4ULSPGp5B906VxRGAg";
     const chatId = "-4282477877";
     const message = `Аты-жөніңіз: ${name}\nТойға келесіз бе: ${attendance}`;
@@ -39,7 +44,6 @@ export const ANewForm = () => {
             <div className={s.title}>
               <h1>Тойға Қатысуыңыз</h1>
             </div>
-
             <div className={s.subtitle}>
               <p>
                 Аты-жөніңізді жазыңыз (Жұбайыңызбен келетін болсаңыз,
@@ -83,6 +87,7 @@ export const ANewForm = () => {
                 Өкінішке орай келе алмаймыз
               </label>
             </div>
+            {error && <p className={s.error}>{error}</p>}
             <button type="submit">Жіберу</button>
           </form>
         ) : (
